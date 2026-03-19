@@ -400,8 +400,7 @@
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <img src="img1.png">
+        <img src = "immagini/dispositivi_aggiunti.png">
       </div>
     </div>
 
@@ -415,8 +414,8 @@
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-       <img src="img2.png">
+        <img src = "immagini/dispositivi_collegati.png">
+      </div>
     </div>
   </section>
 
@@ -463,9 +462,7 @@
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 3</div>
-        <div class="screenshot-desc">CLI del router dopo la configurazione di Gi0/0: messaggi di link-up visibili e prompt Router-DHCP(config)#.</div>
+        <img src = "immagini/configurazione_router.png">
       </div>
     </div>
 
@@ -512,9 +509,7 @@
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 4</div>
-        <div class="screenshot-desc">CLI con i tre comandi ip dhcp excluded-address e la configurazione del pool LAN completata.</div>
+        <img src = "immagini/pool_lan.png">
       </div>
     </div>
 
@@ -527,13 +522,11 @@
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 5</div>
-        <div class="screenshot-desc">Scheda Config → FastEthernet0 di PC-2 con il campo MAC Address evidenziato da annotare.</div>
+        <img src = "immagini/mac_pc2.png">
       </div>
     </div>
 
-    <h3>5.6 – Creazione del pool di prenotazione per PC-2 (DA NON FARE !!!)</h3>
+    <h3>5.6 – Creazione del pool di prenotazione per PC-2</h3>
     <p>Il pool <code>PC2-RESERVED</code> usa la direttiva <code>host</code> per legare un IP specifico al MAC di PC-2. Sostituisci <code>xxxx.xxxx.xxxx</code> con il MAC reale annotato nel passo precedente.</p>
     <div class="ios-mode">▶ DHCP Pool Configuration: Router-DHCP(dhcp-config)#</div>
     <pre><code><span class="prm">Router-DHCP(config)#</span> <span class="cmd">ip dhcp pool</span> <span class="str">PC2-RESERVED</span>
@@ -573,9 +566,7 @@
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 6</div>
-        <div class="screenshot-desc">CLI con la configurazione del pool PC2-RESERVED e l'output di write memory [OK].</div>
+        <img src = "immagini/pool_pc2.png">
       </div>
     </div>
 
@@ -636,9 +627,7 @@
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 7</div>
-        <div class="screenshot-desc">IP Configuration di PC-1: Static selezionato, 192.168.0.25 come IP, 192.168.0.1 come Default Gateway.</div>
+        <img src = "immagini/configurazione_pc1.png">
       </div>
     </div>
   </section>
@@ -667,9 +656,7 @@
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 8</div>
-        <div class="screenshot-desc">IP Configuration di PC-2 in modalità DHCP con l'indirizzo 192.168.0.20 assegnato dal pool di prenotazione del router.</div>
+        <img src = "immagini/configurazione_pc2.png">
       </div>
     </div>
   </section>
@@ -698,17 +685,13 @@
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 9</div>
-        <div class="screenshot-desc">IP Configuration di PC-3 con DHCP attivo: indirizzo assegnato nel range .16–.31, gateway 192.168.0.1 ricevuto dal router.</div>
+        <img src = "immagini/configurazione_pc3.png">
       </div>
     </div>
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 10</div>
-        <div class="screenshot-desc">IP Configuration di PC-4 con un indirizzo diverso da PC-3, entrambi nell'intervallo 192.168.0.16–.31.</div>
+        <img src = "immagini/configurazione_pc4.png">
       </div>
     </div>
   </section>
@@ -746,9 +729,7 @@
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 11</div>
-        <div class="screenshot-desc">Output di show ip dhcp pool sul router: pool LAN con 2 leased, pool PC2-RESERVED con 1 leased.</div>
+        <img src = "immagini/verifica_rete_router.png">
       </div>
     </div>
 
@@ -768,9 +749,7 @@ IP address       Client-ID/              Lease expiration        Type
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 12</div>
-        <div class="screenshot-desc">Output di show ip dhcp binding: binding Manual per PC-2 (192.168.0.20) e Automatic per PC-3 e PC-4 con scadenza a 12 ore.</div>
+        <img src = "immagini/verifica_rete_router_dhcp_binding.png">
       </div>
     </div>
 
@@ -807,9 +786,7 @@ IP address       Client-ID/              Lease expiration        Type
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 13</div>
-        <div class="screenshot-desc">Output del ping da PC-3 verso il router (192.168.0.1) e verso gli altri client con risposta positiva (0% packet loss).</div>
+        <img src = "immagini/verifica_rete_ping.png">
       </div>
     </div>
 
@@ -834,9 +811,7 @@ IP address       Client-ID/              Lease expiration        Type
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 14</div>
-        <div class="screenshot-desc">Pannello Simulation con Edit Filters aperto: solo DHCP selezionato tra i protocolli attivi.</div>
+        <img src = "immagini/edit_filters.png">
       </div>
     </div>
 
@@ -860,9 +835,7 @@ IP address       Client-ID/              Lease expiration        Type
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 15</div>
-        <div class="screenshot-desc">PDU Inspector del DHCPDISCOVER: scheda OSI Model con Src IP 0.0.0.0, Dst IP 255.255.255.0 e il campo chaddr con il MAC di PC-4.</div>
+        <img src = "immagini/dhcp_discover.png">
       </div>
     </div>
 
@@ -893,9 +866,7 @@ IP address       Client-ID/              Lease expiration        Type
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 16</div>
-        <div class="screenshot-desc">PDU Inspector del DHCPOFFER: campo yiaddr con l'IP offerto (es. 192.168.0.16), Src IP 192.168.0.1 e le opzioni Subnet Mask e Router visibili.</div>
+        <img src = "immagini/dhcp_offer.png">
       </div>
     </div>
 
@@ -925,9 +896,7 @@ IP address       Client-ID/              Lease expiration        Type
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 17</div>
-        <div class="screenshot-desc">PDU Inspector del DHCPREQUEST: Src IP ancora 0.0.0.0, Dst broadcast, opzione Requested IP Address con l'indirizzo offerto e Server Identifier 192.168.0.1.</div>
+        <img src = "immagini/dhcp_request.png">
       </div>
     </div>
 
@@ -949,9 +918,7 @@ IP address       Client-ID/              Lease expiration        Type
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 18</div>
-        <div class="screenshot-desc">PDU Inspector del DHCPACK: Message Type 5, yiaddr con l'IP definitivo assegnato a PC-4, opzioni Router e Subnet Mask presenti.</div>
+        <img src = "immagini/dhcp_ack.png">
       </div>
     </div>
 
@@ -1008,9 +975,7 @@ IP address       Client-ID/              Lease expiration        Type
 
     <div class="screenshot">
       <div class="screenshot-inner">
-        <div class="screenshot-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="14" rx="2"/><path d="M8 21h8M12 17v4"/><path d="M3 8h18"/></svg></div>
-        <div class="screenshot-label">📷 Screenshot 19</div>
-        <div class="screenshot-desc">Event List completa con i 4 eventi DORA in sequenza: Discover, Offer, Request, Ack. Ogni riga mostra mittente, destinatario e tipo di pacchetto.</div>
+        <img src = "immagini/event_list.png">
       </div>
     </div>
 
